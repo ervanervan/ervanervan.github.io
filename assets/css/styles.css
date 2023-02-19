@@ -176,14 +176,17 @@ img {
   height: var(--header-height);
 }
 
-.nav__logo,
 .nav__toogle {
   color: var(--first-color);
   font-weight: var(--font-medium);
 }
 
-.nav__logo:hover {
-  color: var(--first-color);
+.nav__logo {
+  padding: 1.4rem 0 1rem 0;
+}
+
+.nav__logo img {
+  height: 30px;
 }
 
 .nav__toogle {
